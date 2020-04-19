@@ -6,7 +6,7 @@ include!(concat!(env!("OUT_DIR"), "/names.rs"));
 fn main() -> Result<(), Box<dyn Error>> {
     use clap::{crate_authors, crate_description, crate_version, value_t, App, Arg};
 
-    let matches = App::new("My Super Program")
+    let matches = App::new("name_distribution")
         .version(crate_version!())
         .author(crate_authors!())
         .about(crate_description!())

@@ -1,6 +1,6 @@
 [package]
 name = "name_distribution"
-description = "Too for distributing surnames across appointment slots based on frequency of occurrance Scotland"
+description = "Tool for distributing surnames across buckets based on frequency of occurrance in Scotland"
 license = "MIT"
 version = "0.1.0"
 authors = ["Stuart Roebuck <stuart.roebuck@gmail.com>"]
