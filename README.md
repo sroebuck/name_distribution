@@ -26,7 +26,7 @@ The choice of bucket boundary is made to try to keep things simple whilst keepin
 
 Currently the tool isn't distributed as a binary.  If you have rust installed you can install with:
 
-    cargo install ....
+    cargo install --git=https://github.com/sroebuck/name_distribution.git
 
 This should happily build on every platform that rust supports including Windows, Mac and Linux.
 
