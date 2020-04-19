@@ -35,7 +35,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut wtr = csv::Writer::from_writer(std::io::stdout());
     wtr.write_record(&["start_letter", "end_letter", "percentage"])?;
     for (start, end, percentage) in ranges {
-        let p = percentage.to_string();
+        let p = (percentage * 100.0).to_string();
         let r = vec![start, end, p];
         wtr.write_record(r)?;
     }
