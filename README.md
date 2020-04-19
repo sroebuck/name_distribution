@@ -10,7 +10,7 @@ So, for example, if you wanted to divide the Scottish population into 5 groups y
 |    D - H     |           21%            |
 |   I - MCH    |           19%            |
 |   MCI - RO   |           21%            |
-|    RU - Z    |           19%            |
+|    RP - Z    |           19%            |
 
 The choice of bucket boundary is made to try to keep things simple whilst keeping the population roughly evenly spread across the buckets.  By default the tool assumes that you don't want to deviate more than 2% from an exact allocation to each bucket.  In the example of 5 buckets you need to increase the deviation a fair bit before you can reduce the number of letters in a range to two characters across the board:
 
@@ -19,7 +19,7 @@ The choice of bucket boundary is made to try to keep things simple whilst keepin
 |    A - C     |           19%            |
 |    D - H     |           21%            |
 |    I - MC    |           24%            |
-|    ME - R    |           17%            |
+|    MD - R    |           17%            |
 |    S - Z     |           19%            |
 
 ## Installation
